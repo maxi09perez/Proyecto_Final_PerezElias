@@ -1,0 +1,99 @@
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #eadff2;
+}
+
+header{
+    background-color: white;
+    color: #993366;
+    padding: 1rem 1rem;
+}
+
+header h1{
+    padding: 0 100px 0 0;
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.container{
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article{
+    transition: box-shadow 0.3s ease;
+    background-color: white;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+section article h2, section article p{
+    margin: 1rem;
+}
+
+footer{
+    font-size: 30px;
+    background-color: white;
+    padding: 3rem;
+    color: #993366;
+}
+
+footer section{
+    float: right;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer a{
+    transition: color 0.3s ease;
+    color: #993366;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: cornflowerblue;
+}
+
+.precio {
+    text-align: right;
+}
+
+ul{
+    padding: 0 116px 0 0;;
+    list-style-type: none;
+    text-align: center;
+}
+
+
+ul li a{
+    text-decoration: none;
+}
+
+ul li a:link, ul li a:visited{
+    color: #dd6688;
+}
+ul li, ul p{
+    display: inline;
+}
+
+.fotoimg{
+    text-align: center;
+}
+
+.icon{
+    float: left;
+}

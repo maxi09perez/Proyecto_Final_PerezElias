@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <title>Milo Oviedo | Diseñador wed</title>
+</head>
+<body>
+    <header>
+            <nav>
+                <button id="nav-toggle"><i class="fa-solid fa-bars"></i></button>
+                <img src="https://randomuser.me/api/portraits/men/7.jpg" alt="Foto de Perfil de Milo" class="icono">
+                <div class="nomb">Milo Oviedo</div>
+                <ul id="list_nav">
+                    <li class="col-i"><a id="inicio" href="#principal">Inicio</a></li>
+                    <li class="col-i"><a id="sobre_mi" href="#info">Sobre mi</a></li>
+                    <li class="col-i"><a id="experiencia" href="#exp">Experiencia</a></li>
+                    <li class="col-i"><a id="contac" href="#contacto">Contactame</a></li>
+                </ul>
+            </nav>
+
+            <section id="principal">
+                
+                <div class="fotoperfil">
+                    <img src="https://randomuser.me/api/portraits/men/7.jpg" alt="Foto de Perfil de Milo" class="fp" width="125px">
+                </div>
+                <div class="titulo">
+                    <h1>Hola! Soy Milo Oviedo</h1>
+                </div>
+                <div class="presentacion">
+                    <p>Un desarrollador web enfocado en el front-end, 
+                    interesado en la elaboración del front-end de 
+                    sitios web.</p>
+                </div>
+                <div class="sec_datos">
+                    <i id="phone" class="fa-solid fa-phone dat"></i>
+                    <i id="correo" class="fa-solid fa-envelope dat"></i>
+                    <i id="calendar" class="fa-solid fa-calendar-days dat"></i>
+                    <i id="location" class="fa-solid fa-location-dot dat"></i>
+                    
+                    <p id="datos"></p>
+                    <p id="dat_milo"></p>
+                </div>
+            </section>
+    </header>
+    
+    <section id="info">
+        
+        <h2><i class="fa-regular fa-circle-user"></i> Acerca de mi</h2>
+        <p class="descripcion">Aquí encontrarás más información sobre mí, 
+            lo que hago y mis habilidades actuales.</p>
+            <div class="col-sm">
+                <article>
+                
+                    <h3 class="hsm">Conoceme</h3>
+                    <p class="infosm">Desarrollador web front-end que crea el
+                    front-end de sitios web y aplicaciones web.
+                    Echa un vistazo a algunos de mis trabajos en
+                    la sección <a href="#exp">Experiencia</a>.</p>
+                    <p class="infosm">Estoy abierto a oportunidades de trabajo donde 
+                    pueda contribuir, aprender y crecer.</p>
+
+                </article>   
+                <article>
+                    <h3 class="hsm">Mis Habilidades</h3>
+                    <div class="bg-hb">
+                        <ul class="lsm">
+                            <li class="hb">HTML</li>
+                            <li class="hb">Git</li>
+                        </ul>
+                        <ul class="lsm">
+                            <li class="hb hb3">JavaScript</li>
+                        </ul>
+                        <ul class="lsm">
+                            <li class="hb">GitHub</li>
+                            <li class="hb">CSS</li>
+                        </ul>
+                    </div>
+                </article>
+                
+            </div>
+            
+            <p class="descripcion desc_p">Si te interesan mis habilidades y conocimientos para trabajar 
+                en tu proyecto puedes contactarme haciendo click al siguiente botón.</p>
+            
+            <div class="bot-cont"><a href="#contacto" class="boton1">Contactame</a></div>
+    </section>
+    
+
+    <section id="exp">
+        <h2><i class="fa-solid fa-laptop-code"></i> Experiencia</h2>
+        <p class="descripcion">Aquí encontrarás algunos de los proyectos de clientes que creé y diseñé.</p>
+        <div class="col-sm">
+            <article class="post">
+                <h3 class="hst">Sweet Town</h3>
+                <p class="pst">
+                Una pastelería ubicada en la ciudad de Córdoba, ofrece una gran cantidad 
+                de exquisiteces, cree un catálogo web, 
+                donde aparece una imagen del producto, precio actualizado 
+                y una breve explicación del mismo.
+                </p>
+                <img src="img/St.png" alt="Sweet Town" class="imgpost imgst">
+                <p class="pst_h">link: <a target="_blank" href="experiencia/sweet_town.html" class="hipst">Sweet Town</a></p>
+            </article>
+            <article class="post">
+                <h3 class="hvpq">Vino para quedarse</h3>
+                <p class="pvpq">
+                Es una vinoteca que ofrece la mejor calidad de vinos Argentinos, donde al igual que el caso anterior  
+                cree un catálogo web, 
+                donde aparece una imagen del producto, precio actualizado 
+                y una breve explicación del mismo.
+                </p>
+                <img src="img/vpq.png" alt="Vino para Quedarse" class="imgpost">
+                <p class="pvpq_h">link: <a target="_blank" href="experiencia/vino_para_quedarse.html" class="hipvpq">Vino para Quedarse</a></p>
+            </article>
+            
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2><i class="fa-regular fa-paper-plane"></i> Contactame</h2>
+        <p class="descripcion">
+            No dude en ponerse en contacto conmigo llenando y 
+            enviando el siguiente formulario y me pondré en contacto 
+            contigo lo antes posible.
+        </p>
+        <form>
+            <label for="nombre" class="l_form">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre" class="i_form"/>
+            <label for="e-mail" class="l_form">E-mail</label>
+            <input type="email" id="e-mail" name="e-mail" placeholder="Ingrese su e-mail" class="i_form"/>
+            <label for="Mensaje" class="l_form">Mensaje</label>
+            <textarea name="comentario" id="comentario" placeholder="Ingrese su Mensaje" cols="40" rows="10"></textarea>
+            <button type="button" id="bot">Enviar</button>
+            <button type="reset" id="bot-resf">Refrescar</button>
+            <p id="demo"></p>
+        </form>
+    </section>
+
+    <footer>
+        <p>Gracias por visitar mi sitio para mas informacion puedes contactarme a mi e-mail haciendo click <a href="mailto:milo.ovi@email.com">aquí</a>.</p>
+        <p class="derechos"><i class="fa-solid fa-registered"></i> Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/funciones.js"></script>
+    <script src="https://kit.fontawesome.com/7cc2e7bd95.js" crossorigin="anonymous"></script>
+</body>
+</html>
