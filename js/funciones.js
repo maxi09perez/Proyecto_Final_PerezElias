@@ -53,18 +53,14 @@ navToggle.addEventListener("click",function(){
     }
 })
 
-document.getElementById("contac").addEventListener("click",function(){
+function volver(){
     ul.style.right = "-100%";
-})
+}
 
-document.getElementById("experiencia").addEventListener("click",function(){
-    ul.style.right = "-100%";
-})
+document.getElementById("contac").addEventListener("click",volver)
 
-document.getElementById("sobre_mi").addEventListener("click",function(){
-    ul.style.right = "-100%";
-})
+document.getElementById("experiencia").addEventListener("click",volver)
 
-document.getElementById("inicio").addEventListener("click",function(){
-    ul.style.right = "-100%";
-})
+document.getElementById("sobre_mi").addEventListener("click",volver)
+
+document.getElementById("inicio").addEventListener("click",volver)
